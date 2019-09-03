@@ -79,6 +79,7 @@ class Installer
         );
         $composerDefinition['name'] = $packageName;
         $composerDefinition['description'] = '';
+        $composerDefinition['license'] = 'proprietary';
         $composerDefinition['autoload']['psr-4'] = [
             "App\\" => 'app/',
             "{$vendor}\\{$package}\\" => 'src/',
